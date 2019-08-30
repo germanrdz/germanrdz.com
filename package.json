@@ -2,6 +2,7 @@
   "name": "germanrdz.com",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://germanrdz.com",
   "dependencies": {
     "eslint-utils": "^1.4.2",
     "prism-react-renderer": "^0.1.7",
