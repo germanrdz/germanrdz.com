@@ -16,7 +16,7 @@ function App() {
 
 import React from 'react';
 
-const printGmail = username => \`\${username}@gmail\`;
+const printGmail = username => \`\${username}@gmail.com\`;
 
 const GermanRodriguez = () => (
   <>
