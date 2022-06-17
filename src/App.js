@@ -1,36 +1,33 @@
-import React from 'react';
+import React from "react";
 
-import HighlightedCode from './HighlightedCode';
-import './App.css';
+import HighlightedCode from "./HighlightedCode";
+import "./App.css";
 
 function App() {
-  const code =
-`/**
-*  Hello!
-*  Welcome to my site! 👋
-*
+  const code = `/**
+*  Hello! Welcome to my site! 👋
 *  Hope you can read code. 💻
 *
-*  http://www.germanrdz.com | 2019
+*  http://www.germanrdz.com | 2022
 */
 
 import React from 'react';
 
-const printGmail = username => \`\${username}@gmail.com\`;
+const printMail = username => \`\${username}@gmail.com\`;
 
 const GermanRodriguez = () => (
   <>
     <h1>Germán Rodríguez</h1>
     <p className="lead">Senior Front End Developer</p>
-    <p>
-      <strong>Email:</strong> {printGmail(germanson)} <br />
-      <strong>Location:</strong> Hermosillo, Sonora, Mexico. <br />
-      <strong>Phone:</strong> Ask via email. <br />
-    </p>
+    <p className="lead">Engineering Manager</p>
 
-    <hr />
+    <quote>
+      <strong>Email:</strong> {printMail('germanson')}
+      <strong>Location:</strong> Hermosillo, Sonora, México.
+      <strong>Phone:</strong> Ask via email.
+    </quote>
 
-    <ul id="primary-skills">
+    <ul id="hard-skills">
       {
         [
           'Javascript',
@@ -39,6 +36,18 @@ const GermanRodriguez = () => (
           'Ruby on Rails',
         ].map((skill, i) => <li key={i}>{skill}</li>)
       }
+    </ul>
+
+
+    <ul id="soft-skills">
+    {
+      [
+        'Team lead',
+        'Agile mindset',
+        'Passion for building software',
+        'English / Spanish',
+      ].map((skill, i) => <li key={i}>{skill}</li>)
+    }
     </ul>
 
     <ul id="links">
