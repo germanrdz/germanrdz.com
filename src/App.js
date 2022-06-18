@@ -60,15 +60,7 @@ const GermanRodriguez = () => (
           {
             site: 'Linked In',
             url: 'https://www.linkedin.com/in/germanson/',
-          },
-          {
-            site: 'Twitter',
-            url: 'https://twitter.com/GerManson',
-          },
-          {
-            site: 'Instagram',
-            url: 'https://www.instagram.com/germanson/',
-          },
+          }
         ].map((link, i) => (
           <li key={i}>
             <a href={link.url}>{link.site}</a>
