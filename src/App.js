@@ -44,7 +44,7 @@ const GermanRodriguez = () => (
       [
         'Team lead',
         'Agile mindset',
-        'Passion for building software',
+        'Pixel perfect',
         'English / Spanish',
       ].map((skill, i) => <li key={i}>{skill}</li>)
     }
