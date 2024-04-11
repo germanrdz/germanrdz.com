@@ -8,7 +8,7 @@ function App() {
 *  Hello! Welcome to my site! 👋
 *  Hope you can read code. 💻
 *
-*  http://www.germanrdz.com | 2022
+*  http://www.germanrdz.com | 2024
 */
 
 import React from 'react';
