@@ -18,8 +18,7 @@ const printMail = username => \`\${username}@gmail.com\`;
 const GermanRodriguez = () => (
   <>
     <h1>Germán Rodríguez</h1>
-    <p className="lead">Senior Front End Developer</p>
-    <p className="lead">Engineering Manager</p>
+    <p className="lead">Engineering Manager with a strong background on front end development</p>
 
     <quote>
       <strong>Email:</strong> {printMail('germanson')}
@@ -44,7 +43,7 @@ const GermanRodriguez = () => (
       [
         'Team lead',
         'Agile mindset',
-        'Pixel perfect',
+        'Startup lover',
         'English / Spanish',
       ].map((skill, i) => <li key={i}>{skill}</li>)
     }
