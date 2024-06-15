@@ -9,7 +9,7 @@ function App() {
 *  Hello! Welcome to my site! 👋
 *  Hope you can read code. 💻
 *
-*  http://www.germanrdz.com | 2024
+*  - Germán 
 */
 
 import React from 'react';
