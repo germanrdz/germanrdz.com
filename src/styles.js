@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  font-family: sans-serif;
-  text-align: center;
-`
+  max-width: 780px;
+  margin: 0 auto;
+`;
 
 export const Pre = styled.pre`
   text-align: left;
@@ -14,11 +14,12 @@ export const Pre = styled.pre`
     line-height: 1.3em;
     height: 1.3em;
   }
-`
+`;
 
 export const LineNo = styled.span`
   display: inline-block;
   width: 2em;
   user-select: none;
   opacity: 0.3;
-`
+  font-size: 0.8em;
+`;

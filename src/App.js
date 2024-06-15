@@ -1,6 +1,7 @@
 import React from "react";
 
 import HighlightedCode from "./HighlightedCode";
+import { Wrapper } from "./styles";
 import "./App.css";
 
 function App() {
@@ -18,7 +19,10 @@ const printMail = username => \`\${username}@gmail.com\`;
 const GermanRodriguez = () => (
   <>
     <h1>Germán Rodríguez</h1>
-    <p className="lead">Engineering Manager with a strong background on front end development</p>
+    <p className="lead">
+      Engineering Manager with a
+      robust front-end development background
+    </p>
 
     <quote>
       <strong>Email:</strong> {printMail('germanson')}
@@ -29,10 +33,9 @@ const GermanRodriguez = () => (
     <ul id="hard-skills">
       {
         [
-          'Javascript',
-          'React',
-          'Node',
-          'Ruby on Rails',
+          'Javascript, Node & React',
+          'Ruby & Ruby on Rails',
+          'iOS & Android development',
         ].map((skill, i) => <li key={i}>{skill}</li>)
       }
     </ul>
@@ -75,7 +78,16 @@ export default GermanRodriguez;
 
   return (
     <div className="App">
-      <HighlightedCode code={code} />
+      <Wrapper>
+        <img
+          className="avatar"
+          width="160"
+          src="https://ca.slack-edge.com/T04MHFR0T-U042F0M5R62-2712851a18b6-512"
+          alt="German"
+        />
+        <HighlightedCode code={code} />
+        🦇
+      </Wrapper>
     </div>
   );
 }
