@@ -22,6 +22,7 @@ const GermanRodriguez = () => (
     <p className="lead">
       Engineering Manager with a
       robust front-end development background
+      helping engineering teams reach their goals
     </p>
 
     <quote>
@@ -39,7 +40,6 @@ const GermanRodriguez = () => (
         ].map((skill, i) => <li key={i}>{skill}</li>)
       }
     </ul>
-
 
     <ul id="soft-skills">
     {
